@@ -8,9 +8,9 @@ public class MediaProva {
 
         Scanner notas = new Scanner(System.in);
         System.out.println("Digite a primeria nota");
-        double nota1 = notas.nextInt();
+        double nota1 = notas.nextDouble();
         System.out.println("Digite a segunda nota");
-        double nota2 = notas.nextInt();
+        double nota2 = notas.nextDouble();
 
         calculadora c = new calculadora();
         double soma = c.soma(nota1, nota2);
