@@ -12,8 +12,11 @@ public class MediaProva {
         System.out.println("Digite a segunda nota");
         double nota2 = notas.nextInt();
 
-        calculadora calcular = new calculadora();
-        System.out.println("resultado é: " + calcular.soma(nota1, nota2) / 2);
+        calculadora c = new calculadora();
+        double soma = c.soma(nota1, nota2);
+        double resultado;
+        resultado = c.divisao(soma, 2);
+        System.out.println("resultado é: " + resultado);
 
     }
 
