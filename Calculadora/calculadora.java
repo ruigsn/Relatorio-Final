@@ -2,25 +2,24 @@ package Calculadora;
 
 public class calculadora {
 
-    public void soma(int numero1, int numero2) {
-        int resultadoSoma;
-        resultadoSoma = numero1 + numero2;
-        System.out.println("Resultado da operação de soma é: " + resultadoSoma);
+    public double soma(double numero1, double numero2) {
+        double resultado = numero1 + numero2;
+        return resultado;
     }
 
-    public void subtracao(int numero1, int numero2) {
-        int resultadoSubtracao;
-        resultadoSubtracao = numero1 - numero2;
-        System.out.println("Resultado da operação de subtração é: " + resultadoSubtracao);
-
+    public double sub(double numero1, double numero2) {
+        double resultado = numero1 - numero2;
+        return resultado;
     }
 
-    public void multiplicacao() {
-
+    public double multiplicacao(double numero1, double numero2) {
+        double resultado = numero1 * numero2;
+        return resultado;
     }
 
-    public void divisao() {
-
+    public double divisao(double numero1, double numero2) {
+        double resultado = numero1 / numero2;
+        return resultado;
     }
 
     public void exponencial() {
@@ -31,11 +30,11 @@ public class calculadora {
 
     }
 
-    public void piso() {
+    public double piso() {
 
     }
 
-    public void teto() {
+    public double teto() {
 
     }
 }
