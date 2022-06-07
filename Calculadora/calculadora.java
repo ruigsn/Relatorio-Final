@@ -7,7 +7,7 @@ public class calculadora {
         return resultado;
     }
 
-    public double sub(double numero1, double numero2) {
+    public double subtracao(double numero1, double numero2) {
         double resultado = numero1 - numero2;
         return resultado;
     }
