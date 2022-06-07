@@ -27,11 +27,13 @@ public class calculadora {
         return resultado;
     }
 
-    public void piso() {
-
+    public double piso(double numero1) {
+        double resultado = Math.floor(numero1);
+        return resultado;
     }
 
-    public void teto() {
-
+    public double teto(double numero1) {
+        double resultado = Math.ceil(numero1);
+        return resultado;
     }
 }
