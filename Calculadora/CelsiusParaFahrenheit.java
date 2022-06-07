@@ -9,7 +9,8 @@ public class CelsiusParaFahrenheit {
 
     public void celsiusParaFahrenheit() {
 
-        try (Scanner temperatura = new Scanner(System.in)) {
+            Scanner temperatura = new Scanner(System.in);
+
             System.out.println("Entre com a temperatura Celsius");
             double celsius = temperatura.nextDouble();
 
@@ -24,4 +25,3 @@ public class CelsiusParaFahrenheit {
         // (0 °C × 9/5) + 32 = 32 °F
 
     }
-}
