@@ -6,8 +6,12 @@ public class Main {
 
         MediaProva mediaProva = new MediaProva();
         mediaProva.mediaProva();
+
         CelsiusParaFahrenheit convert = new CelsiusParaFahrenheit();
         convert.celsiusParaFahrenheit();
+
+        AreaCircunferencia areaCirc = new AreaCircunferencia();
+        areaCirc.areaCirc();
 
     }
 }
