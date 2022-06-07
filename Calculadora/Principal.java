@@ -16,5 +16,8 @@ public class Principal {
         LadoQuadrado ladoqua = new LadoQuadrado();
         ladoqua.lado();
 
+        AumentoSalarial sal = new AumentoSalarial();
+        sal.aumentar();
+
     }
 }

@@ -13,7 +13,7 @@ public class LadoQuadrado {
             area = areas.nextDouble();
             
             calculadora c = new calculadora();
-            lado = c.raizQuadrada(area);
+            lado = c.raizQuadrada(area);                                    // calculadora usada aqui
             System.out.println("O lado desse quadrado é: " + lado + "cm");
         }
     }
