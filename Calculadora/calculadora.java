@@ -17,12 +17,14 @@ public class calculadora {
         return resultado;
     }
 
-    public void exponencial() {
-
+    public double exponencial(double numero1, double numero2) {
+        double resultado = Math.pow(numero1, numero2);
+        return resultado;
     }
 
-    public void raizQuadrada() {
-
+    public double raizQuadrada(double numero1) { 
+        double resultado = Math.sqrt(numero1);
+        return resultado;
     }
 
     public void piso() {
