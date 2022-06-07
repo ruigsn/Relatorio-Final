@@ -13,5 +13,8 @@ public class Principal {
         AreaCircunferencia areaCirc = new AreaCircunferencia();
         areaCirc.areaCirc();
 
+        LadoQuadrado ladoqua = new LadoQuadrado();
+        ladoqua.lado();
+
     }
 }
