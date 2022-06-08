@@ -43,6 +43,8 @@ public class Principal {
             case 5:
                 AumentoSalarial sal = new AumentoSalarial();
                 sal.aumentar();
+                break;
+
             case 0:
                 break;
 

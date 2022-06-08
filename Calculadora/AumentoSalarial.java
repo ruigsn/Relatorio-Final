@@ -8,7 +8,7 @@ public class AumentoSalarial {
     private double dinheiro;
     private double salarioNovo;
 
-    public void aumentar(){
+    public void aumentar() {
         try (Scanner teclado = new Scanner(System.in)) {
             System.out.println("Você é dono de uma empresa e decidiu dar um aumento para o seu melhor colaborador.");
 
@@ -19,11 +19,11 @@ public class AumentoSalarial {
             aumento = teclado.nextInt();
 
             calculadora c = new calculadora();
-            dinheiro = (c.multiplic(salario, aumento)) / 100;                           // calculadora usada aqui
+            dinheiro = (c.multiplicacao(salario, aumento)) / 100; // calculadora usada aqui
             salarioNovo = salario + dinheiro;
 
             System.out.println("O colaborador recebeu um aumento de R$" + dinheiro);
-            System.out.println("e seu novo salário é R$"+ salarioNovo);
+            System.out.println("e seu novo salário é R$" + salarioNovo);
         }
     }
 }

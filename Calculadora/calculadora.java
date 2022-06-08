@@ -12,7 +12,7 @@ public class calculadora {
         return resultado;
     }
 
-    public double multiplic(double numero1, double numero2) {
+    public double multiplicacao(double numero1, double numero2) {
         double resultado = numero1 * numero2;
         return resultado;
     }
@@ -27,7 +27,7 @@ public class calculadora {
         return resultado;
     }
 
-    public double raizQuadrada(double numero1) { 
+    public double raizQuadrada(double numero1) {
         double resultado = Math.sqrt(numero1);
         return resultado;
     }
