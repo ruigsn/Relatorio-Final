@@ -49,5 +49,6 @@ public class Principal {
                 break;
 
         }
+        opcao.close();
     }
 }
