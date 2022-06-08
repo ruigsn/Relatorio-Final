@@ -12,7 +12,7 @@ public class calculadora {
         return resultado;
     }
 
-    public double multiplicacao(double numero1, double numero2) {
+    public double multiplic(double numero1, double numero2) {
         double resultado = numero1 * numero2;
         return resultado;
     }

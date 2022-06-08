@@ -17,6 +17,7 @@ public class Principal {
         System.out.println("Digite 2 - Para calculara a media de notas");
         System.out.println("Digite 3 - Para calcular a área da circunferencia");
         System.out.println("Digite 4 - Para calcular o lada de um quadrado");
+        System.out.println("Digite 5 - Para calcular o aumento de salario");
         System.out.println("Digite 0 - EXIT");
         System.out.println("-----------------------------------------------------");
         op = opcao.nextInt();
@@ -39,6 +40,9 @@ public class Principal {
                 LadoQuadrado ladoqua = new LadoQuadrado();
                 ladoqua.lado();
                 break;
+            case 5:
+                AumentoSalarial sal = new AumentoSalarial();
+                sal.aumentar();
             case 0:
                 break;
 
