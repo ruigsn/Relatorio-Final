@@ -11,9 +11,9 @@ public class AreaCircunferencia {
             double raio = raioCirc.nextDouble();
 
             calculadora c = new calculadora();
-            double area = Math.PI * c.exponencial(raio, 2);
+            double area = c.multiplicacao(Math.PI, c.exponencial(raio, 2));
             System.out.println("A área da circunferência é: " + area);
         }
     }
-    
+
 }
