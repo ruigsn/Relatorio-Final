@@ -14,11 +14,12 @@ public class CelsiusParaFahrenheit {
             double celsius = temperatura.nextDouble();
 
             calculadora c = new calculadora();
-            double resultado1 = celsius * 1.8;
-            multiplicacao = resultado1;
+
+            multiplicacao = c.multiplicacao(celsius, 1.8);
             resultado = c.soma(multiplicacao, 32);
 
-            System.out.println("A conversão de: " + celsius + " Celsius para Fahrenheit é :  " + resultado + "Fahrenheit");
+            System.out.println(
+                    "A conversão de: " + celsius + " Celsius para Fahrenheit é :  " + resultado + "Fahrenheit");
         }
 
         // (0 °C × 9/5) + 32 = 32 °F
