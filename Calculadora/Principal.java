@@ -20,6 +20,7 @@ public class Principal {
         System.out.println("Digite 5 - Para calcular o aumento de salario");
         System.out.println("Digite 6 - Para calcular o IMC");
         System.out.println("Digite 7 - Para calcular o velocidade média");
+        System.out.println("Digite 8 - Para calcular a gorjeta e o valor por pessoa da conta");
         System.out.println("Digite 0 - EXIT");
         System.out.println("-----------------------------------------------------");
         op = opcao.nextInt();
@@ -54,6 +55,10 @@ public class Principal {
             case 7:
                 VelocidadeMedia media = new VelocidadeMedia();
                 media.calculoVelocidadeMedia();
+                break;
+            case 8:
+                Gorjeta calculo = new Gorjeta();
+                calculo.calcGorjeta();
                 break;
             case 0:
                 break;
