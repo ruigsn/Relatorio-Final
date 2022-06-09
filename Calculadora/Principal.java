@@ -53,7 +53,7 @@ public class Principal {
                 break;
             case 7:
                 VelocidadeMedia media = new VelocidadeMedia();
-                media.calcVelocidadeMedia();
+                media.calculoVelocidadeMedia();
                 break;
             case 0:
                 break;

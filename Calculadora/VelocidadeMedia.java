@@ -6,7 +6,7 @@ public class VelocidadeMedia {
 
     double velocidadeMediaFinal;
 
-    public void calcVelocidadeMedia() {
+    public void calculoVelocidadeMedia() {
 
         try (Scanner n = new Scanner(System.in)) {
             System.out.println("Digite a velocidade inicial");
