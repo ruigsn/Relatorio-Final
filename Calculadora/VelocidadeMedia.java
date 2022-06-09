@@ -3,7 +3,8 @@ package Calculadora;
 import java.util.Scanner;
 
 public class VelocidadeMedia {
-    double vMediaFinal;
+
+    double velocidadeMediaFinal;
 
     public void calcVelocidadeMedia() {
 
@@ -15,9 +16,9 @@ public class VelocidadeMedia {
 
             calculadora c = new calculadora();
             double vMedia1 = c.soma(vel1, vel2);
-            vMediaFinal = c.divisao(vMedia1, 2);
+            velocidadeMediaFinal = c.divisao(vMedia1, 2);
 
         }
-        System.out.println("Velocidade media é:  " + vMediaFinal);
+        System.out.println("Velocidade media é:  " + velocidadeMediaFinal);
     }    
 }

@@ -18,6 +18,8 @@ public class Principal {
         System.out.println("Digite 3 - Para calcular a área da circunferencia");
         System.out.println("Digite 4 - Para calcular o lada de um quadrado");
         System.out.println("Digite 5 - Para calcular o aumento de salario");
+        System.out.println("Digite 6 - Para calcular o IMC");
+        System.out.println("Digite 7 - Para calcular o velocidade média");
         System.out.println("Digite 0 - EXIT");
         System.out.println("-----------------------------------------------------");
         op = opcao.nextInt();
@@ -45,6 +47,14 @@ public class Principal {
                 sal.aumentar();
                 break;
 
+            case 6:
+                CalculoIMC calc = new CalculoIMC();
+                calc.calcularIMC();
+                break;
+            case 7:
+                VelocidadeMedia media = new VelocidadeMedia();
+                media.calcVelocidadeMedia();
+                break;
             case 0:
                 break;
 
