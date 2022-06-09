@@ -14,9 +14,9 @@ public class CalculoIMC {
 
             calculadora c = new calculadora();
             double multiplicacao = c.multiplicacao(altura, altura);
-            double resultado;
-            resultado = c.divisao(peso, multiplicacao);
-            System.out.println("resultado é: " + resultado);
+            double resultadoIMC;
+            resultadoIMC = c.divisao(peso, multiplicacao);
+            System.out.println("resultado é: " + resultadoIMC);
         }
     }
 }
